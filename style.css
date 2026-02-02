@@ -127,3 +127,57 @@ body {
 .btn-secondary:hover {
   color: #1f2f56;
 }
+
+@media (max-width: 600px) {
+
+  body {
+    padding: 1rem;
+  }
+
+  /* switch background image */
+  .bg-image {
+    content: url("./images/pattern-background-mobile.svg");
+    height: auto;
+  }
+
+  .card {
+    max-width: 330px;
+    border-radius: 14px;
+  }
+
+  .content {
+    padding: 1.5rem;
+  }
+
+  .content h1 {
+    font-size: 1.3rem;
+  }
+
+  .description {
+    font-size: 0.85rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .plain-box {
+    padding: 0.8rem;
+  }
+
+  .plain-title {
+    font-size: 0.85rem;
+  }
+
+  .plain-price {
+    font-size: 0.75rem;
+  }
+
+  .change {
+    margin-left: auto;
+    font-size: 0.75rem;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 0.8rem;
+  }
+}
+
