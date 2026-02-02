@@ -131,35 +131,56 @@ body {
 @media (max-width: 600px) {
 
   body {
-    padding: 1rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
   }
 
-  /* switch background image */
   .bg-image {
     content: url("./images/pattern-background-mobile.svg");
-    height: auto;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .container {
+    padding: 1.5rem 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .card {
-    max-width: 330px;
-    border-radius: 14px;
+    max-width: 340px;
+    border-radius: 18px;
+  }
+
+  /* HERO IMAGE */
+  .image img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
   }
 
   .content {
-    padding: 1.5rem;
+    padding: 1.8rem 1.6rem;
   }
 
   .content h1 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
   }
 
   .description {
     font-size: 0.85rem;
-    margin-bottom: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
   }
 
+  /* PLAN BOX */
   .plain-box {
-    padding: 0.8rem;
+    padding: 1rem;
+    margin-bottom: 1.6rem;
   }
 
   .plain-title {
@@ -175,9 +196,14 @@ body {
     font-size: 0.75rem;
   }
 
-  .btn {
+  /* BUTTONS */
+  .btn-primary {
+    padding: 0.95rem;
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .btn-secondary {
     font-size: 0.85rem;
-    padding: 0.8rem;
   }
 }
-
